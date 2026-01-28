@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { ShipmentLineItem } from '../../types/shipment';
 import { Input } from '../ui/input';
 import { Button } from '../ui/button';
@@ -159,7 +159,7 @@ export const LineItemsTable: React.FC<LineItemsTableProps> = ({
                 </tr>
               </thead>
               <tbody className="bg-white divide-y divide-gray-200">
-                {lineItems.map((item, index) => (
+                {lineItems.map((item) => (
                   <tr key={item.id} className="hover:bg-gray-50 transition-colors">
                     <td className="px-4 py-3 whitespace-nowrap">
                       <Input

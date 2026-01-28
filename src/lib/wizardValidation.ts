@@ -20,8 +20,6 @@ export const validateStep = (
   mode?: Mode,
   country?: Country
 ): StepValidationResult => {
-  const errors: ValidationError[] = [];
-
   switch (stepNumber) {
     case 1:
       return validateStep1(formData);
@@ -129,7 +127,7 @@ const validateStep3 = (formData: ShipmentData): StepValidationResult => {
  */
 const validateAllSteps = (
   formData: ShipmentData,
-  mode?: Mode,
+  _mode?: Mode,
   country?: Country
 ): StepValidationResult => {
   const allErrors: ValidationError[] = [];

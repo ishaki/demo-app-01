@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ShipmentData, Country, Mode, Category } from '../../types/shipment';
+import { ShipmentData, Category } from '../../types/shipment';
 import { fieldDefinitions, categories } from '../../lib/fieldConfig';
 import { isFieldVisible } from '../../lib/fieldUtils';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '../ui/tabs';

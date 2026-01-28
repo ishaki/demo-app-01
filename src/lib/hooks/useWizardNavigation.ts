@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback } from 'react';
 import { Mode, Country, ShipmentData } from '../../types/shipment';
-import { getTotalSteps, getVisibleSteps, stepMetadata } from '../wizardStepMapping';
-import { validateStep, canProceedFromStep } from '../wizardValidation';
+import { getTotalSteps, getVisibleSteps } from '../wizardStepMapping';
+import { canProceedFromStep } from '../wizardValidation';
 
 export interface WizardNavigationState {
   currentStep: number;

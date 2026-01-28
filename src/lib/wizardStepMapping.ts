@@ -180,7 +180,7 @@ export const stepMetadata: StepMetadata[] = [
     title: 'Japan-Specific',
     description: 'Japan operational requirements',
     isConditional: true,
-    condition: (mode, country) => country === 'Japan',
+    condition: (_mode, country) => country === 'Japan',
   },
   {
     number: 11,

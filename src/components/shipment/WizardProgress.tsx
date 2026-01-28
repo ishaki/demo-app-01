@@ -12,7 +12,7 @@ interface WizardProgressProps {
 
 export const WizardProgress: React.FC<WizardProgressProps> = ({
   currentStep,
-  totalSteps,
+  totalSteps: _totalSteps,
   visitedSteps,
   mode,
   country,

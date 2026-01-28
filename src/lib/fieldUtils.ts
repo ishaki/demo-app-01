@@ -1,4 +1,4 @@
-import { FieldDefinition, Country, Mode, AppliesTo } from '../types/shipment';
+import { FieldDefinition, Country, Mode } from '../types/shipment';
 
 /**
  * Determines if a field should be visible based on current country and mode selections
